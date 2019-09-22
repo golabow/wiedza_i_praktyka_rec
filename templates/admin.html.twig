@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% if view_mode == 'list' %}
+        <user-list></user-list>
+    {% elseif view_mode == 'edit_user' %}
+        <user-form :user="{{ user }}"></user-form>
+    {% endif %}
+{% endblock %}
