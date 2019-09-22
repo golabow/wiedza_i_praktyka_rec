@@ -6,9 +6,7 @@ Symfony 4 & Vue.js & SQLite
 Install guide:
 
 1. Install dependencies:
-
   -> composer install
-  
   -> cd src/Frontend && npm install
 
 2. Run webpack
